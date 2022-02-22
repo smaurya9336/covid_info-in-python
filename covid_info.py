@@ -6,7 +6,7 @@ from matplotlib.pyplot import title
 import requests
 from plyer import notification
 
-# let there is no data initially
+#let there is no data initially
 covidData=None
 try:
     covidData=requests.get("https://corona-rest-api.herokuapp.com/Api/india")
